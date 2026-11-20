@@ -1,0 +1,13 @@
+timestamp,service,host,severity,message
+2026-11-19 09:02:11,payment-api,server-01,Critical,Database connection pool exhausted
+2026-11-19 09:03:08,payment-api,server-01,Critical,Database connection pool exhausted
+2026-11-19 09:04:42,payment-api,server-01,High,Database connection pool exhausted - retry queue growing
+2026-11-19 09:10:15,checkout-web,web-02,High,HTTP 503 error rate above threshold
+2026-11-19 09:12:33,checkout-web,web-02,Medium,HTTP 503 error rate above threshold
+2026-11-19 09:18:02,inventory-worker,worker-03,Medium,Memory usage at 92 percent
+2026-11-19 09:19:44,inventory-worker,worker-03,Low,Memory usage at 92 percent
+2026-11-19 09:25:10,auth-service,app-04,Critical,Health check failed - service unreachable
+2026-11-19 09:31:27,reporting-db,db-01,High,Disk storage usage reached 95 percent
+2026-11-19 09:34:09,reporting-db,db-01,Medium,Disk storage usage reached 95 percent
+2026-11-19 09:40:56,api-gateway,edge-01,Low,Request latency slightly above baseline
+2026-11-19 09:45:20,search-api,server-05,Medium,Connection timeout to upstream search cluster
