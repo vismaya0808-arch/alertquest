@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AlertQuest
 **Stop Chasing Alerts. Start Solving Problems.**
 
@@ -20,3 +21,7 @@ Python 3.10+ is recommended. No API keys or external AI services are required. A
 - Sample alert dataset in `data/sample_alerts.csv`.
 
 CSV columns: `timestamp, service, host, severity, message`. Severity values: critical, high, medium, low.
+=======
+# alertquest
+Intelligent AI-powered alert correlation and noise reduction system.
+>>>>>>> af847692889201adfc7be982292a270d18ed8eeb
